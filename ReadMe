@@ -1,0 +1,16 @@
+# Titanic - Análise de Dados com Python
+
+Este projeto realiza uma análise exploratória do famoso dataset do Titanic disponível no Kaggle. São aplicadas técnicas de limpeza, visualização e um modelo preditivo simples com Random Forest.
+
+##  Tecnologias
+
+- Pandas
+- NumPy
+- Seaborn
+- Matplotlib
+- Scikit-learn
+
+##  Como usar
+
+Clone o repositório e instale as dependências:
+
