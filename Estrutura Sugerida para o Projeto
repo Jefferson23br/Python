@@ -1,0 +1,6 @@
+/titanic-analysis
+│
+├── titanic_analysis.ipynb         # Jupyter Notebook com a análise completa
+├── titanic.csv                    # Dataset (do Kaggle)
+├── README.md                      # Explicação do projeto
+└── requirements.txt               # Dependências do projeto
