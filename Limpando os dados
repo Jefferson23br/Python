@@ -1,0 +1,6 @@
+# Preencher valores ausentes
+df['Age'].fillna(df['Age'].median(), inplace=True)
+df['Embarked'].fillna(df['Embarked'].mode()[0], inplace=True)
+
+# Remover colunas não úteis
+df.drop(['Cabin', 'Ticket', 'Name'], axis=1, inplace=True)
