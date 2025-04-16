@@ -1,0 +1,6 @@
+model = RandomForestClassifier()
+model.fit(X_train, y_train)
+
+# Avaliação
+y_pred = model.predict(X_test)
+print(f"Acurácia: {accuracy_score(y_test, y_pred)*100:.2f}%")
