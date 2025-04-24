@@ -1,23 +1,30 @@
 #  Previsão de Preços de Casas com Regressão Linear
 
-Este projeto utiliza regressão linear para prever preços de casas com base em características como tamanho e número de quartos.
+Este projeto utiliza regressão linear para prever preços de casas com base em dados de tamanho e número de quartos.
 
 ---
 
-##  Baixe o Executável Pronto (.exe)
+##  Sobre este Repositório
 
-Não é necessário instalar Python!
+Este repositório contém um código Python para prever preços de casas. O código pode ser executado de duas maneiras:
 
- Basta rodar o arquivo `previsao.exe` , conferir se estão **mesma pasta**, e dar **dois cliques no `.exe`** para executar.
-
->  O arquivo `casas.csv` é necessário para que o programa funcione corretamente.
+1. **Rodar diretamente com o script Python (usando CMD)**.
+2. **Gerar um executável `.exe` e rodar sem precisar de Python instalado.**
 
 ---
 
-##  Como executar (modo desenvolvedor)
+##  Como rodar o código
 
-Se preferir rodar o código Python diretamente:
+### **1. Rodar diretamente com o script Python (via CMD)**
 
-### 1. Instale as dependências:
+Para rodar o código diretamente, siga os passos abaixo:
+
+#### Passo 1: Instalar Python e dependências
+
+Certifique-se de ter o **Python** instalado. Você pode baixar e instalar o Python [aqui](https://www.python.org/downloads/).
+
+Após a instalação, abra o **CMD** (Prompt de Comando) e navegue até a pasta onde está o arquivo `previsao.py`.
+
+Em seguida, instale as bibliotecas necessárias usando o comando:
 ```bash
 pip install -r requirements.txt
