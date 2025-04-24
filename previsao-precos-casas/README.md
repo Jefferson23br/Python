@@ -8,9 +8,9 @@ Este projeto utiliza regressão linear para prever preços de casas com base em 
 
 Não é necessário instalar Python!
 
- Basta baixar o arquivo `previsao.exe` (na pasta `dist`) e o arquivo `casas.csv`, colocá-los na **mesma pasta**, e dar **dois cliques no `.exe`** para executar.
+ Basta rodar o arquivo `previsao.exe` , conferir se estão **mesma pasta**, e dar **dois cliques no `.exe`** para executar.
 
-> ⚠️ O arquivo `casas.csv` é necessário para que o programa funcione corretamente.
+>  O arquivo `casas.csv` é necessário para que o programa funcione corretamente.
 
 ---
 
