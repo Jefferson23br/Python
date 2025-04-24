@@ -1,0 +1,37 @@
+1. Instale o PyInstaller
+Abra o terminal (Prompt de Comando ou PowerShell) e digite:
+pip install pyinstaller
+
+2. Vá até a pasta do seu script
+No terminal, navegue até a pasta onde está seu script Python (ex: organizador.py):
+cd C:\Users\SeuUsuario\Desktop\meu_projeto
+
+3. Crie o executável
+Rode o comando abaixo para gerar o .exe:
+pyinstaller --onefile --noconsole organizador.py
+Explicação das opções:
+--onefile: gera um único arquivo .exe.
+
+--noconsole: esconde o terminal ao abrir (ideal para apps com interface gráfica como o Tkinter).
+
+organizador.py: é o nome do seu script.
+
+4. Onde está o .exe?
+Depois que o processo terminar, você verá uma nova pasta chamada dist.
+O arquivo .exe estará dentro dela:
+meu_projeto/
+├── build/
+├── dist/
+│   └── organizador.exe   ← ESTE É O ARQUIVO FINAL
+├── organizador.py
+├── organizador.spec
+
+Dicas finais:
+Você pode renomear o .exe como quiser.
+
+Para distribuir, basta enviar o .exe da pasta dist para outras pessoas.
+
+Se o programa usa imagens, ícones ou arquivos auxiliares, será melhor empacotar tudo numa pasta e referenciar os caminhos relativos.
+
+Problema comum: o antivírus bloqueia
+Se você ou outra pessoa tentar rodar o .exe e o antivírus bloquear, é normal com arquivos .exe gerados manualmente. Basta marcar como confiável ou executar como administrador.
